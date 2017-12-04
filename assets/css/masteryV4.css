@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+.topbar-left-element {
+	float: left;
+	margin-right: 10px;
+	font-size: 20px;
+	vertical-align: middle;
+	line-height: 20px;
+	list-style: none;
+	color: white;
+}
+
+.container {
+	right: 10px !important;
+}
+
+#menu {
+	height: 60px;
+}
+
+#basicInfo {
+	padding-top: 50px;
+	font-size: 20px;
+}
+
+.infoRow {
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	height: 50px;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.infoDesc {
+	width: 20% !important;
+	float: left;
+	color: black;
+	border-right-style:solid;
+	border-right-width:thin;
+	border-right-color:black;
+
+}
+
+.info {
+	width: 80% !important;
+	padding-left: 20px;
+	float: left;
+}
+
+.select {
+	width: 80%;
+	margin: 20px 10%;
+
+}
+
+.select> select {
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+}
+
+.navbar-light {
+	background-color: #087f23;
+}
+
+.navbar-right {
+	height: 80px !important;
+}
+
+.navbar-right> li {
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+.navbar-right> li:last-child {
+	right: 0px;
+}
+
+.mainStats {
+	height: auto;
+	overflow: auto;
+}
+
+#paragraphInput {
+	width: 100%;
+	height: 200px;
+	margin-top: 20px;
+	resize: none;
+}
+
+#editArea > textarea {
+	width: 100%;
+	height: 200px;
+	margin-top: 20px;
+	resize: none;
+}
+
+#submitbutton {
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	display: grid;
+}

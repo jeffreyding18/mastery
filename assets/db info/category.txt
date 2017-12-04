@@ -1,0 +1,8 @@
+1	Analytical and Creative Thinking	12
+2	Complex Communication - Oral and Written	6
+3	Leadership and Teamwork	9
+4	Digital and Quantitative Literacy	5
+5	Global Perspective	8
+6	Adaptability, Initiative, and Risk-Taking	7
+7	Integrity and Ethical Decision-Making	6
+8	Habits of Mind	8
