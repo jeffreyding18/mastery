@@ -430,8 +430,6 @@
 					for(j = 0; j < arr[i].length; j += 3) {
 							str += arr[i][j] + ": " + arr[i][j+2];
 							str += "<br />";
-							str += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comments : " + arr[i][j+1];
-							str += "<br />";
 					}
 					strArr.push(str);
 				}
