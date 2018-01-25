@@ -72,19 +72,11 @@
 
 			</div>
 		</div>
-		<div class="infoRow">
-			<div class="infoDesc">
-				DOB
-			</div>
-			<div class="info" id="rThree">
-
-			</div>
-		</div>
-		<div class="infoRow">
-			<div class="infoDesc">
+		<div class="infoRow" style="height:150px !important;">
+			<div class="infoDesc"  style="height:130px !important;">
 				Description
 			</div>
-			<div class="info" id="rFour">
+			<div class="info" id="rThree" style="height:150px !important;">
 
 			</div>
 		</div>
@@ -266,10 +258,9 @@
 				console.log( 'my message' + err );
 			},
 			success: function ( arr ) {
-				document.getElementById( "rOne" ).innerHTML = arr[ 0 ] + ", " + arr[ 1 ];
+				document.getElementById( "rOne" ).innerHTML = arr[ 1 ] + ", " + arr[ 0 ];
 				document.getElementById( "rTwo" ).innerHTML = arr[ 2 ];
-				document.getElementById( "rThree" ).innerHTML = arr[ 3 ];
-				document.getElementById( "rFour" ).innerHTML = arr[ 4 ];
+				document.getElementById( "rThree" ).innerHTML = arr[ 4 ];
 				console.log( arr );
 			},
 			dataType: 'json',
@@ -321,11 +312,9 @@
 					console.log( 'my message' + err );
 				},
 				success: function ( arr ) {
-					document.getElementById( "rOne" ).innerHTML = arr[ 0 ] + ", " + arr[ 1 ];
+					document.getElementById( "rOne" ).innerHTML = arr[ 1 ] + ", " + arr[ 0 ];
 					document.getElementById( "rTwo" ).innerHTML = arr[ 2 ];
-					document.getElementById( "rThree" ).innerHTML = arr[ 3 ];
-					document.getElementById( "rFour" ).innerHTML = arr[ 4 ];
-					console.log( "get info return" + arr[ 0 ] + ", " + arr[ 1 ] );
+					document.getElementById( "rThree" ).innerHTML = arr[ 4 ];
 				},
 				dataType: 'json',
 			} );
